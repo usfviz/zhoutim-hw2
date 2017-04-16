@@ -1,0 +1,10 @@
+library(shiny)
+library(scales)
+library(ggplot2)
+library(magrittr)
+library(data.table)
+library(reshape2)
+library(tidyr)
+library(dplyr)
+
+shinyApp(ui = ui, server = server)
