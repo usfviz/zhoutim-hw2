@@ -32,7 +32,7 @@ ui <- fluidPage(
 			column(12, align = 'center',
 				plotOutput(outputId = 'dataPlot',
 						   height = '768px',
-						   width = '90%',
+						   width = '100%',
 						   click = clickOpts(id = 'plot_click'),
 						   hover = hoverOpts(id = 'plot_hover',
 						   				  	 delay = 100,
@@ -40,7 +40,7 @@ ui <- fluidPage(
 				
 				sliderInput(inputId = 'yearSlider',
 							label = NULL, sep = "", ticks = F,
-							width = '85%',
+							width = '100%',
 							min = 1960,
 							max = 2014,
 							value = 1960,
